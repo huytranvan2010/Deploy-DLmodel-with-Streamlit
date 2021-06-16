@@ -61,3 +61,4 @@ Mở đường link bên trên hoặc mở bằng câu lệnh `heroku open` đ�
 1. https://www.geeksforgeeks.org/deploy-your-machine-learning-web-app-streamlit-on-heroku/
 2. https://github.com/huytranvan2010/Deploy-DLmodel-with-Streamlit
 3. https://gilberttanner.com/blog/deploying-your-streamlit-dashboard-with-heroku
+4. https://devcenter.heroku.com/articles/getting-started-with-python#deploy-the-app
