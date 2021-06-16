@@ -17,7 +17,10 @@ enableCORS = false\n\
 \n\
 " > ~/.streamlit/config.toml
 ```
-Chú ý nếu dùng OpenCv trên Heroku thì trong file `requirements.txt` nên để `opencv-python-headless` chứ không phải `opencv-contrib-python` để tránh một số lỗi `ImportError: libGL.so.1: cannot open shared object file: No such file or directory`
+**Chú ý:** Nếu dùng OpenCV trên Heroku thì trong file `requirements.txt` nên để `opencv-python-headless` chứ không phải `opencv-contrib-python` để tránh một số lỗi `ImportError: libGL.so.1: cannot open shared object file: No such file or directory`
+
+Các bạn có thể xem thêm demo của mình tại [github-huytranvan2010](https://github.com/huytranvan2010/Deploy-DLmodel-with-Streamlit) hoặc tự tạo cho mình một project để chạy thử.
+
 ##### Tài liệu tham khảo
 1. https://www.geeksforgeeks.org/deploy-your-machine-learning-web-app-streamlit-on-heroku/
-2. 
+2. https://github.com/huytranvan2010/Deploy-DLmodel-with-Streamlit
