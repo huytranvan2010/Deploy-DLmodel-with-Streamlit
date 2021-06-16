@@ -17,3 +17,7 @@ enableCORS = false\n\
 \n\
 " > ~/.streamlit/config.toml
 ```
+Chú ý nếu dùng OpenCv trên Heroku thì trong file `requirements.txt` nên để `opencv-python-headless` chứ không phải `opencv-contrib-python` để tránh một số lỗi `ImportError: libGL.so.1: cannot open shared object file: No such file or directory`
+##### Tài liệu tham khảo
+1. https://www.geeksforgeeks.org/deploy-your-machine-learning-web-app-streamlit-on-heroku/
+2. 
